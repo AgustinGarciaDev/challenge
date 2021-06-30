@@ -70,9 +70,9 @@ const Home = (props) => {
                 <div>
                     {
                         listStudents.length === 0
-                            ? <h1>loading</h1>
+                            ? <div className='centerElement'><h1>loading</h1></div>
                             : listStudentCopy.length === 0
-                                ? <div className="errorBusqueda">
+                                ? <div className="centerElement">
                                     <h2>Search not found. Try again</h2>
                                     <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_iojp9xve.json" style={{ width: "20vw" }} speed="0.7" loop autoplay></lottie-player>
                                 </div>
