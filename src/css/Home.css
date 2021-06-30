@@ -1,0 +1,131 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: var(--fontRaleway);
+    }
+:root {
+  --fontRaleway: 'Raleway', sans-serif; ;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCards{
+    background-color: white;
+    width: 50%;
+    box-shadow: -1px 1px 3px 1px #00000042;
+    height: 80vh;
+    border-radius: 1vw;
+    overflow: auto;
+}
+
+.avatar{
+  width: 7vw;
+    height: 7vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #847f7f;
+    border-radius: 100%;
+    background-position: center;
+    margin: 1vw;
+
+}
+.containerStudent{
+    display: flex;
+   /*  align-items: center; */
+}
+
+.containerForms{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.inputForm{
+    width: 100%;
+    height: 3vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.containerTitleAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 39vw;
+}
+
+.containerTitleAndButton > h3{
+   font-size: 35px;
+   padding-bottom: 10px;
+}
+
+.containerTitleAndButton > i{
+    font-size: 2vw;
+}
+
+.containerDataAvatar  ul {
+    list-style: none;
+    margin-left: 16px;
+}
+
+.containerDataAvatar  > ul > li {
+  padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+.tagList{
+    display: flex;
+     flex-wrap: wrap;
+
+}
+
+.tagList > li{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #e8e6e6;
+    border-radius: 3px;
+    margin: 4px
+}
+
+.inputTag{
+    width: 36%;
+    height: 3vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00000069;
+    margin: 10px 15px;
+
+}
+
+.containerTitleAndButton > button {
+    font-size: 30px;
+    border: none;
+    background: white;
+    color: darkgray;
+}
+
+.containerTitleAndButton > button:hover{
+    color: black;
+}
+
+
+
+.errorBusqueda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
